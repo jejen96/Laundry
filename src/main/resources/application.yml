@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/laundry
+    test-on-borrow: true
+    validation-query: select 1
+server:
+  port: 8080
+mail:
+  host: 
+  port: 587
+  username: 
+  password: 
+  protocol: smtp
+  tls: true
+  properties.mail.smtp:
+    auth: true
+    starttls.enable: true
+    ssl.trust: 

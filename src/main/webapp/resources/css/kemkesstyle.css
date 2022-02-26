@@ -1,0 +1,156 @@
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  display: block;
+  font-family: 'Glyphicons Halflings';
+  opacity: 0.5;
+}
+table.dataTable thead .sorting:after {
+  opacity: 0.2;
+  content: "\e150";
+  /* sort */
+}
+table.dataTable thead .sorting_asc:after {
+  content: "\e155";
+  /* sort-by-attributes */
+}
+table.dataTable thead .sorting_desc:after {
+  content: "\e156";
+  /* sort-by-attributes-alt */
+}
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  color: white;
+}
+
+table.dataTable thead > tr {
+	background: #126C84;
+	color: white;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #126C84;
+  border-color: #126C84;
+}
+
+dd, dt {
+    line-height: 1.6;
+}
+
+.no-padding {
+	padding : 0px;
+}
+
+.no-margin {
+	margin : 0px;
+}
+
+.p-l-10 {
+	padding-left: 10px;
+}
+
+.m-l-10 {
+	padding-left: 10px;
+}
+
+.m-10 {
+	margin: 10px !important;
+}
+
+.m-20 {
+	margin: 20px !important;
+}
+
+.files {
+	width: 100%;
+	border: 1px solid #d2d6de;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+	background: #FFFFFF;
+	border-radius: 0px !important;
+	text-align: left;
+}
+.files:hover {
+	background: #f1f1f1;
+}
+
+.files-upload {
+	width: 100%;
+	border: 1px solid #126C84;
+	padding: 10px;
+	margin-bottom: 10px;
+	background: white;
+	border-radius: 0px !important;
+	text-align: center;
+	color: #126C84;
+}
+
+.files > i {
+	margin: 10px;
+}
+
+.file-preview-image{
+  	font-size: 14px !important;
+}
+
+.pre-scrollable-250 {
+	max-height: 250px;
+	overflow: scroll;
+}
+
+.pre-scrollable-300 {
+	max-height: 300px;
+	overflow: scroll;
+}
+
+.callout-kemkes {
+	background: #126C84;
+	color: white;
+	border-color: #0F5C71;
+}
+
+.danger.deep {
+	background-color: #e2b6b6 !important;
+}
+
+.btn-danger-light {
+	background-color: #FFA5A5;
+	color: white;
+}
+
+.btn-kemkes {
+	background-color: #126C84;
+	color: white !important;
+}
+
+.btn-kemkes:hover {
+	background-color: #0F5C71 !important;
+}
+
+/* =================
+   Spinners
+==================== */
+.sk-rotating-plane, .sk-double-bounce .sk-child, .sk-wave .sk-rect, .sk-wandering-cubes .sk-cube, .sk-spinner-pulse,
+.sk-chasing-dots .sk-child, .sk-three-bounce .sk-child, .sk-circle .sk-child:before, .sk-cube-grid .sk-cube,
+.sk-fading-circle .sk-circle:before, .sk-folding-cube .sk-cube:before {
+  background-color: #126C84; }
+
+.sk-fading-circle .sk-circle {
+  margin-top: 0; }
+
